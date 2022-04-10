@@ -14,6 +14,7 @@ const Location = styled.span`
   text-transform: capitalize;
   font-size: 28px;
   font-weight: bold;
+  color: #2c698d;
 `;
 const Condition = styled.span`
   margin: 20px auto;

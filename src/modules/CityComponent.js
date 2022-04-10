@@ -8,7 +8,8 @@ const SearchBox = styled.form`
   margin: 20px;
   border: black solid 1px;
   border-radius: 2px;
-
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   & input {
     padding: 10px;
     font-size: 14px;
@@ -18,7 +19,7 @@ const SearchBox = styled.form`
     font-weight: bold;
   }
   & button {
-    background-color: black;
+    background-color: #2c698d;
     font-size: 14px;
     padding: 0 10px;
     color: white;
@@ -30,7 +31,7 @@ const SearchBox = styled.form`
   }
 `;
 const ChooseCityLabel = styled.span`
-  color: black;
+  color: #072448;
   margin: 10px auto;
   font-size: 18px;
   font-weight: bold;

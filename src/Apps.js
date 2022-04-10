@@ -28,24 +28,17 @@ const Container = styled.div`
   width: 380px;
   padding: 20px 10px;
   margin: auto;
-  border-radius: 4px;
+  border-radius: 18px;
   box-shadow: 0 3px 6px 0 #555;
   background: white;
   font-family: Montserrat;
 `;
 
 const AppLabel = styled.span`
-  color: black;
+  color: #2c698d;
   margin: 20px auto;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
-`;
-const CloseButton = styled.span`
-  padding: 2px 3px;
-  background-color: black;
-  border-radius: 50%;
-  color: white;
-  position: absolute;
 `;
 
 function Apps() {
